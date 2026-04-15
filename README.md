@@ -1,42 +1,91 @@
-# Ex09 Event Registration Web Application
-## Date:12.05.2025
+# Event Registration Web Application
 
-## AIM:
-To design, develop and deploy a web application for event registration.
+## 1. Introduction
 
-## DESIGN STEPS:
+This project involves the design, development, and deployment of a web-based application for event registration. The system is developed with a focus on usability, structured navigation, and an intuitive user interface to facilitate seamless interaction for users.
 
-### Step 1:
-Create a new frame.
+---
 
-### Step 2:
-Select any one preset size of your choice.
+## 2. Aim
 
-### Step 3:
-Select the shapes you need.
+To design, develop, and deploy a web application that enables users to view event details and register efficiently through a user-friendly interface.
 
-### Step 4:
-Import images as needed.
+---
 
-### Step 5:
-Create pages based on your need and link them.
+## 3. Design Methodology
 
-### Step 6:
+### Step 1
 
-Validate the HTML and CSS code.
+Create a new design frame in the design tool.
 
-### Step 6:
+### Step 2
 
-Publish the website in the given URL.
+Select an appropriate preset size based on the target device.
 
-## DESIGN TOOL:
-Figma
+### Step 3
+
+Incorporate required shapes and UI components.
+
+### Step 4
+
+Import relevant images and graphical elements.
+
+### Step 5
+
+Design multiple pages and establish navigation links between them.
+
+### Step 6
+
+Validate the HTML and CSS code to ensure correctness.
+
+### Step 7
+
+Deploy the application using a suitable hosting platform.
+
+---
+
+## 4. Design Tool
+
+* Figma
+
+---
+
+## 5. Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+* React (Styled Components)
+
+---
+
+## 6. System Description
+
+The application consists of multiple pages designed to guide the user through the event registration process:
+
+* **Home Page:** Displays the event title and a call-to-action for registration.
+* **Events Page:** Lists available events for participation.
+* **Registration Form:** Collects user details such as name, register number, mobile number, email ID, and selected event.
+* **Contact Page:** Provides organizer details and contact information.
+
+---
+
+## 7. Features
+
+* User-friendly interface
+* Structured navigation across pages
+* Event listing and selection
+* Registration form for user input
+* Responsive layout design
+
+---
+
 
 ## CODE:
 
 ```
 
-Home page
+# Home page
 
 <div style="width: 478px; height: 823px; position: relative; background: white; overflow: hidden">
   <img style="width: 748px; height: 748px; left: -150px; top: 75px; position: absolute" src="https://placehold.co/748x748" />
@@ -158,7 +207,7 @@ export const Iphone16Plus2 = () => {
 
 
 
-Second page
+# Second page
 
 <div style="width: 446px; height: 797px; position: relative; background: white; overflow: hidden">
   <img style="width: 797px; height: 795px; left: -192px; top: -189px; position: absolute" src="https://placehold.co/797x795" />
@@ -303,7 +352,7 @@ export const Iphone16Pro1 = () => {
 };
 
 
-Third page
+# Third page
 
 <div style="width: 440px; height: 797px; position: relative; background: white; overflow: hidden">
   <img style="width: 1466px; height: 826px; left: -531px; top: -29px; position: absolute" src="https://placehold.co/1466x826" />
@@ -487,7 +536,7 @@ export const Iphone16Plus3 = () => {
 };
 
 
-Fourth page
+# Fourth page
 
 <div style="width: 428px; height: 797px; position: relative; background: white; overflow: hidden">
   <img style="width: 800px; height: 1422px; left: -273px; top: -433px; position: absolute" src="https://placehold.co/800x1422" />
@@ -592,8 +641,12 @@ export const Iphone16Plus4 = () => {
 
 ## OUTPUT:
 
+The application interface was successfully designed and implemented as per the requirements.
+
 ![alt text](web-9.png)
 
 
-## RESULT:
-The program to design, develop and deploy a web application for event registration is completed successfully.
+## 10. Developed By
+
+**Keshavarthini**
+Aspiring Full Stack Developer | Exploring UI/UX 
